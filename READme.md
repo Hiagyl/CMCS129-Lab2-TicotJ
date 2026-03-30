@@ -68,3 +68,29 @@ php artisan storage:link
 # Start the local development server
 php artisan serve
 ```
+
+## 🏗️ MVC Architecture & Structure
+
+This project strictly follows the Model-View-Controller (MVC) pattern, supplemented by a Service Layer to maintain "Skinny Controllers" and "Fat Models/Services."
+### Project Structure
+```bash
+pet-inventory/
+├── app/
+│   ├── Http/Controllers/
+│   │   └── PetController.php      <-- [CONTROLLER] Brain of the app; handles requests and flow.
+│   ├── Models/
+│   │   └── Pet.php                <-- [MODEL] Database logic, fillables, and SoftDeletes.
+│   └── Services/
+│       └── PetImageService.php    <-- [SERVICE] Isolated logic for file uploads and deletions.
+├── database/
+│   └── migrations/                <-- [DATABASE] Defines the PostgreSQL table schema.
+├── resources/
+│   └── views/                     <-- [VIEW] The UI Layer
+│       ├── layouts/               <-- Master Blade templates (Navigation, Global CSS).
+│       ├── components/            <-- Reusable UI pieces (Pet Cards, Add-Pet Modals).
+│       └── pets/                  <-- Specific page views (Index, Edit, Archive).
+├── routes/
+│   └── web.php                    <-- The "Route Map" defining all accessible URLs.
+└── public/
+    └── storage/                   <-- Symbolic link to access uploaded pet photos.
+```

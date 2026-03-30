@@ -94,3 +94,16 @@ pet-inventory/
 └── public/
     └── storage/                   <-- Symbolic link to access uploaded pet photos.
 ```
+## 📸 Application Screenshots
+
+Here is a visual overview of the Project Pawradise interface.
+
+### Active Inventory (Dashboard)
+This screen shows all currently active pets on campus. You can view their quick details, edit their profiles, or move them to the archive.
+
+![Project Pawradise Dashboard View](img/Screenshot%202026-03-30%20224148.png)
+
+### Archived Records
+This view displays pets that have been soft-deleted. From here, records can be restored back to the active inventory or permanently removed from the system.
+
+![Project Pawradise Archived View](img/Screenshot%202026-03-30%20224239.png)

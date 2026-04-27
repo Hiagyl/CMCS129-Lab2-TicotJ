@@ -171,6 +171,6 @@ This view displays pets that have been soft-deleted. From here, records can be r
 
 ### AI Interaction
 This shows the interaction with the chatbot.
-![AI Interaction](img/Screenshot 2026-04-27 233250)
+![AI Interaction](img/Screenshot%202026-04-27%20233250)
 ![AI Interaction](img/image.png)
 ![AI Interaction](img/image1.png)

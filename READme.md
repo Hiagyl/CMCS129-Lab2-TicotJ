@@ -173,4 +173,4 @@ This view displays pets that have been soft-deleted. From here, records can be r
 This shows the interaction with the chatbot.
 
 ![AI Interaction](img/image.png)
-![AI Interaction](img/"image copy.png")
+![AI Interaction](img/image1.png)

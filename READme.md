@@ -1,6 +1,6 @@
 # 🐾 Project Pawradise: Campus Pet Inventory
 
-**Project Pawradise** is a web-based inventory system built with Laravel to track and manage community-owned pets (cats/dogs) found around a university campus. It allows users to document pet locations, physical traits, and personalities to ensure their well-being and visibility within the campus community.
+**Project Pawaradise** is a web-based inventory system built with Laravel to track and manage community-owned pets (cats/dogs) found around a university campus. It allows users to document pet locations, physical traits, and personalities to ensure their well-being and visibility within the campus community.
 
 ---
 
@@ -10,7 +10,7 @@
 * **Intelligent Archiving:** Utilizes Laravel **Soft Deletes** to hide pets from the main inventory without losing historical data or records.
 * **Image Processing:** A dedicated **Service Layer** for handling high-quality pet photo uploads, ensuring clean storage management.
 * **Responsive UI:** A modern, "Paw-themed" interface built with **Tailwind CSS** and reusable **Blade Components**.
-* **Pagination:** Efficient data handling to ensure fast load times for large campus pet populations.
+* **AI-Powered Chatbot:** A natural language interface to manage your inventory through conversation.
 
 ---
 
@@ -95,21 +95,7 @@ pet-inventory/
     └── storage/                   <-- Symbolic link to access uploaded pet photos.
 ```
 
-# 🐾 Project Pawaradise: Campus Pet Inventory
 
-**Project Pawaradise** is a web-based inventory system built with Laravel to track and manage community-owned pets (cats/dogs) found around a university campus. It allows users to document pet locations, physical traits, and personalities to ensure their well-being and visibility within the campus community.
-
----
-
-## 🚀 Features
-
-* **Full CRUD Lifecycle:** Create, Read, Update, and Archive pet records seamlessly.
-* **Intelligent Archiving:** Utilizes Laravel **Soft Deletes** to hide pets from the main inventory without losing historical data or records.
-* **Image Processing:** A dedicated **Service Layer** for handling high-quality pet photo uploads, ensuring clean storage management.
-* **Responsive UI:** A modern, "Paw-themed" interface built with **Tailwind CSS** and reusable **Blade Components**.
-* **AI-Powered Chatbot:** A natural language interface to manage your inventory through conversation.
-
----
 
 ## 🤖 New: Pawaradise AI Assistant (GenAI Integration)
 

@@ -168,3 +168,9 @@ This screen shows all currently active pets on campus. You can view their quick 
 This view displays pets that have been soft-deleted. From here, records can be restored back to the active inventory or permanently removed from the system.
 
 ![Project Pawradise Archived View](img/Screenshot%202026-03-30%20224239.png)
+
+### AI Interaction
+This shows the interaction with the chatbot.
+
+![AI Interaction](img/image.png)
+![AI Interaction](img/"image copy.png")
